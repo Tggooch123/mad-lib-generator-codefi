@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter Tight", sans-serif;
+}
+
+body {
+  background-color: #313133;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container {
+  background-color: #222325;
+  padding: 2em;
+  border-radius: 2em;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.submit {
+  border: none;
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  margin-top: 1em;
+}
+
+.submit:hover {
+  background-color: black;
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+form {
+  margin: 2em auto;
+  width: 20em;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  display: inline-grid;
+  font-size: large;
+  margin-bottom: 1.5em;
+}
+
+input {
+  border: none;
+  border-bottom: 2px;
+  height: 2em;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+input:focus {
+  transform: scale(1.1);
+  border: 2px solid #ef233c;
+}
+
+.mad-lib {
+  width: 20em;
+  margin: 2em auto;
+}
+
+b {
+  color: bold;
+}
